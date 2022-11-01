@@ -11,6 +11,6 @@ async function bootstrap() {
 
   await app.listen(PORT);
 
-  console.log(`\nGateway service listening on port ${PORT}`);
+  console.log(`\nAuth service listening on port ${PORT}`);
 }
 bootstrap();
